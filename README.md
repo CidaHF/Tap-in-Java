@@ -3,6 +3,8 @@ Tap in Java
 
 The Tap class for Java.
 
+Usage:
+
 ```
 public static void main(String[] args)
 {
