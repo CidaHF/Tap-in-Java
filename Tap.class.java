@@ -2,6 +2,15 @@ public class Tap
 {
     protected Pressure pressure;
 
+    public Tap()
+    {
+       pressure = new Pressure(this);
+
+       say("I'm a tap!");
+
+       run();
+    }
+
     public Tap(boolean r)
     {
         pressure = new Pressure(this);
